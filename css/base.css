@@ -1,0 +1,156 @@
+body {
+  background-color: #f5f5f5;
+  font-size: 13px;
+  font-family: "Microsoft Yahei", simsun;
+  padding-bottom: 50px;
+}
+.container {
+  width: 960px !important;
+}
+h1,
+h2 {
+  font-family: "Microsoft Yahei", "simhei";
+}
+.invite-box {
+  background-color: white;
+  margin-top: 30px;
+}
+.invite-box .border {
+  background-image: url(/static/img/mail-border.png);
+  height: 5px;
+  opacity: 0.8;
+}
+.invite-box .container {
+  padding: 35px 0;
+}
+.invite-box .avatar {
+  float: left;
+  margin-top: 7px;
+  border-radius: 40px;
+  border: 0px;
+  background-color: #ddd;
+}
+.invite-box .avatar img {
+  width: 80px;
+  height: 80px;
+  border-radius: 40px;
+  border: 0px;
+}
+.invite-box .avatar img.empty {
+  opacity: 0.5;
+}
+.invite-box .content {
+  margin-left: 120px;
+  margin-right: 30px;
+}
+.invite-box .content .inviter-name {
+  font-weight: bold;
+}
+.invite-box .content .bubble {
+  margin-top: 5px;
+  padding: 15px;
+  background-color: #f5f5f5;
+  border-radius: 10px;
+  margin-left: -10px;
+  position: relative;
+}
+.invite-box .content .bubble:before {
+  height: 0;
+  width: 0;
+  display: block;
+  content: "";
+  border-color: transparent #f5f5f5 transparent transparent;
+  border-style: solid;
+  border-width: 10px;
+  margin-left: -35px;
+  margin-right: -10px;
+  float: left;
+}
+.invite-box .content .bubble p {
+  font-size: 18px;
+  padding: 0px;
+  margin: 0px;
+}
+.invite-box button.install {
+  display: block;
+  margin: 23px auto 0 auto;
+}
+.invite-box button.install i {
+  top: 3px;
+  margin-right: 5px;
+}
+.invite-box button.install span {
+  font-size: 14px;
+}
+.invite-box button.install small {
+  font-size: 12px;
+}
+.product-intro {
+  margin-top: 30px;
+  padding: 0 70px;
+}
+.product-intro h1 {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+.gallery {
+  position: relative;
+}
+.gallery .button {
+  top: 200px;
+  font-size: 36px;
+  text-decoration: none;
+  color: #888;
+}
+.gallery .button:hover {
+  color: #666;
+}
+.gallery .button.prev {
+  float: left;
+  margin-left: -70px;
+}
+.gallery .button.next {
+  float: right;
+  margin-right: -70px;
+}
+.compare-box {
+  background-color: #ddd;
+  height: 500px;
+  position: relative;
+  overflow: hidden;
+  border: 5px solid #ddd;
+}
+.compare-box .image {
+  left: 0px;
+  top: 0px;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+.compare-box .image.before {
+  border-right: 1px solid red;
+  z-index: 1;
+}
+.compare-box .image img {
+  height: 100%;
+}
+.compare-box .tag {
+  position: absolute;
+  z-index: 10;
+  padding: 5px 10px;
+  color: white;
+  top: 40px;
+  white-space: nowrap;
+  font-size: 12px;
+  width: 100px;
+}
+.compare-box .tag.before {
+  background: #CB2C2C;
+  text-align: right;
+}
+.compare-box .tag.after {
+  background: #5CB85C;
+  text-align: left;
+}
